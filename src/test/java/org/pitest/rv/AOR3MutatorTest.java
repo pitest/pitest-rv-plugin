@@ -17,8 +17,6 @@ package org.pitest.rv;
 import org.junit.Before;
 import org.junit.Test;
 import org.pitest.mutationtest.engine.Mutant;
-import org.pitest.mutationtest.engine.gregor.MutatorTestBase;
-import org.pitest.mutationtest.engine.gregor.mutators.rv.AOR3Mutator;
 
 import java.util.concurrent.Callable;
 
