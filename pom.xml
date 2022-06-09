@@ -23,7 +23,8 @@
 		<junit.platform.version>1.8.0</junit.platform.version>
 		<junit.version>5.8.0</junit.version>
 		<mockito.version>2.7.6</mockito.version>
-		<pitest.version>1.7.4</pitest.version>
+		<pitest.version>1.8.0</pitest.version>
+		<asm.version>9.3</asm.version>
 	</properties>
 
 	<scm>
@@ -167,6 +168,24 @@
 			<artifactId>pitest</artifactId>
 			<version>${pitest.version}</version>
 			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm-util</artifactId>
+			<version>${asm.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm-analysis</artifactId>
+			<version>${asm.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.18</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
