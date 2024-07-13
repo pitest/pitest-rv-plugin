@@ -20,7 +20,7 @@ To use the plugin it must be placed on the classpath of the pitest tool (**not**
           <dependency>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-rv-plugin</artifactId>
-            <version>1.0</version>
+            <version>0.1</version>
           </dependency>
         </dependencies>
       </plugin>
