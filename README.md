@@ -2,7 +2,9 @@
 
 Research focussed mutation operators for pitest.
 
-Note, these operators were built into pitest until release 1.7.5. From 1.7.5 onwards, this plugin is required if we wish to use the rv operators.
+Note, these operators were built into pitest until release 1.7.5. From 1.7.5 onwards, this plugin is required to use the rv operators.
+
+This plugin is currently looking for a maintainer.
 
 ## Usage
 
